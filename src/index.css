@@ -33,30 +33,3 @@
   overflow: auto;
   padding: 36px;
 }
-
-#app {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-image: url('https://images.unsplash.com/photo-1577728610108-e1d6c6233459?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=677&q=80');
-}
-body {
-  margin: 0;
-}
-
-button {
-  border: 0;
-  font-family: 'Nunito Sans', sans-serif;
-  background-color: #fff;
-  height: 60px;
-  border-radius: 12px;
-  cursor: pointer;
-  font-size: 18px;
-  color: #333;
-  padding: 0 24px 0 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.5s ease;
-}
