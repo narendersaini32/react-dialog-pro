@@ -48,13 +48,6 @@
     "react/jsx-curly-spacing": ["warn", "never"],
     "react/jsx-filename-extension": ["warn", { "extensions": [".jsx"] }],
     "react/jsx-first-prop-new-line": ["warn", "multiline"],
-    "react/jsx-handler-names": [
-      "warn",
-      {
-        "eventHandlerPrefix": "handle",
-        "eventHandlerPropPrefix": "on"
-      }
-    ],
     "react/jsx-indent": ["warn", 2],
     "react/jsx-key": "error",
     "react/jsx-wrap-multilines": ["warn"],
@@ -65,7 +58,8 @@
     "import/no-unresolved": 0,
     "import/no-extraneous-dependencies": 0,
     "import/extensions": 0,
-    "babel/object-curly-spacing": 0
+    "babel/object-curly-spacing": 0,
+    "react/jsx-props-no-spreading":0
   },
   "env": {
     "es6": true,
